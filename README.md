@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://img.shields.io/badge/[DOI-10.5281%2Fzenodo.XXXXXXX-blue](https://doi.org/10.5281/zenodo.18033123)
 
 Deep learning pipeline for predicting Minimum Inhibitory Concentrations (MIC) of **antimicrobial peptides** against pathogenic bacteria. Optimized for aquaculture applications.
 
@@ -463,6 +463,7 @@ If you find this useful, please ⭐ star the repository!
 **Made with ❤️ for antimicrobial peptide research**
 
 *Last updated: December 2024*
+
 
 
 
