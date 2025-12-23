@@ -53,8 +53,8 @@ This repository provides a complete computational pipeline for predicting antimi
 ##  Pipeline Architecture
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                   INPUT: Antimicrobial Peptide Sequences                       │
-│                    (FASTA format)                      │
+│                   INPUT: Antimicrobial Peptide Sequences        |
+│                    (FASTA format)                               |
 └────────────────────────┬────────────────────────────────────────┘
                          │
                          ▼
@@ -111,7 +111,7 @@ This repository provides a complete computational pipeline for predicting antimi
                          │
                          ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│               OUTPUT: MIC Predictions (μg/mL)                    │
+│               OUTPUT: MIC Predictions (μg/mL)                   |
 │  ├─ predictions_S_aureus.csv                                    │
 │  ├─ predictions_E_coli.csv                                      │
 │  ├─ predictions_P_aeruginosa.csv                                │
@@ -463,6 +463,7 @@ If you find this useful, please ⭐ star the repository!
 **Made with ❤️ for antimicrobial peptide research**
 
 *Last updated: December 2024*
+
 
 
 
