@@ -125,13 +125,13 @@ This repository provides a complete computational pipeline for predicting antimi
 
 ### Example Predictions for Novel Moricin Peptides
 
-| Peptide ID | Sequence (40 AA) | S. aureus | E. coli | P. aeruginosa | Avg MIC | Activity |
-|------------|------------------|-----------|---------|---------------|---------|----------|
-| **Antimicrobial Peptide2** | APKGVGSAVKTGFRVISAAGTAHDVYHHFKNKK... | **1.98** | **1.55** | **1.88** | **1.80** | ⭐⭐⭐ Exceptional |
-| **Antimicrobial Peptide1** | APEPKGSLGSLKKGAKVVGKGFKVISAVGTAHD... | 2.09 | 1.78 | 3.15 | 2.34 | ⭐⭐⭐ Excellent |
-| **Antimicrobial Peptide5** | APGKIPVKAIQKAGKAIGKGLRAINIASTVHDI... | 2.11 | 1.69 | 2.80 | 2.20 | ⭐⭐⭐ Excellent |
-| Antimicrobial Peptide3 | APGKIPVKAIQKAGKAIGKGLRAINVASTVHDI... | 2.23 | 1.76 | 2.87 | 2.29 | ⭐⭐ Very Good |
-| Antimicrobial Peptide4 | APKGAGKIIRKGGKVIKHGLTAIGVIGTGHEVYR... | 3.38 | 1.88 | 2.34 | 2.53 | ⭐⭐ Very Good |
+| Peptide ID | S. aureus | E. coli | P. aeruginosa | Avg MIC | Activity |
+|------------|-----------|---------|---------------|---------|----------|
+| **Antimicrobial Peptide2** |  **1.98** | **1.55** | **1.88** | **1.80** | ⭐⭐⭐ Exceptional |
+| **Antimicrobial Peptide1** |  2.09 | 1.78 | 3.15 | 2.34 | ⭐⭐⭐ Excellent |
+| **Antimicrobial Peptide5** |  2.11 | 1.69 | 2.80 | 2.20 | ⭐⭐⭐ Excellent |
+| **Antimicrobial Peptide3** |  2.23 | 1.76 | 2.87 | 2.29 | ⭐⭐ Very Good |
+| **Antimicrobial Peptide4** |  3.38 | 1.88 | 2.34 | 2.53 | ⭐⭐ Very Good |
 
 **All MIC values in μg/mL**
 
@@ -141,14 +141,6 @@ This repository provides a complete computational pipeline for predicting antimi
 - ✅ **Broad-Spectrum**: Effective against both Gram-positive and Gram-negative bacteria
 - ✅ **Gram-Negative Activity**: Unusually strong against *E. coli* and *P. aeruginosa*
 - ✅ **Aquaculture-Ready**: MIC range (1.8-6 μg/mL) ideal for fish disease treatment
-
-### 📈 Comparison to Literature
-
-| Study | Antimicrobial Peptide Source | MIC Range | This Study |
-|-------|---------------|-----------|------------|
-| Hemmi et al. 2002 | *Bombyx mori* | 5-20 μg/mL | **1.8-6 μg/mL** ✓ |
-| Dai et al. 2008 | *Samia cynthia* | 8-32 μg/mL | **Better** ✓ |
-| Xu et al. 2019 | *Antheraea pernyi* | 10-50 μg/mL | **Superior** ✓ |
 
 ---
 
@@ -497,5 +489,6 @@ If you find this useful, please ⭐ star the repository!
 **Made with ❤️ for antimicrobial peptide research**
 
 *Last updated: December 2024*
+
 
 
