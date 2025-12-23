@@ -1,4 +1,4 @@
-# 🧬 Moricin Antimicrobial Peptide MIC Prediction Pipeline
+# MIC Prediction Pipeline for Antimicrobial Peptide 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -27,7 +27,7 @@ This repository provides a complete computational pipeline for predicting antimi
 - **ProtT5-XL embeddings** for peptide sequence representation
 - **Bacterial genomic features** for strain-specific prediction
 - **Ensemble deep learning models** (CNN, BiLSTM, Multi-Branch)
-- **Moricin-specific optimizations** based on structural biology
+- **Antimicrobial Peptide-specific optimizations** based on structural biology
 
 ### 🎯 Key Applications
 - Aquaculture disease management
@@ -37,11 +37,11 @@ This repository provides a complete computational pipeline for predicting antimi
 
 ---
 
-## ⚡ Key Features
+##  Key Features
 
 | Feature | Description |
 |---------|-------------|
-|  **Moricin-Specific** | N-terminal truncation preserves active center based on published structures |
+|  **Antimicrobial Peptide-Specific** | N-terminal truncation preserves active center based on published structures |
 |  **State-of-the-Art** | ProtT5-XL embeddings + ensemble deep learning |
 |  **Multi-Pathogen** | Predicts against *S. aureus*, *E. coli*, *P. aeruginosa* |
 |  **Auto Log-Transform** | Automatically detects and converts predictions to μg/mL |
@@ -50,11 +50,11 @@ This repository provides a complete computational pipeline for predicting antimi
 
 ---
 
-## 🏗️ Pipeline Architecture
+##  Pipeline Architecture
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                   INPUT: Moricin Sequences                       │
-│                    (FASTA format, 36-50 AA)                      │
+│                   INPUT: Antimicrobial Peptide Sequences                       │
+│                    (FASTA format)                      │
 └────────────────────────┬────────────────────────────────────────┘
                          │
                          ▼
@@ -127,24 +127,24 @@ This repository provides a complete computational pipeline for predicting antimi
 
 | Peptide ID | Sequence (40 AA) | S. aureus | E. coli | P. aeruginosa | Avg MIC | Activity |
 |------------|------------------|-----------|---------|---------------|---------|----------|
-| **AM2** | APKGVGSAVKTGFRVISAAGTAHDVYHHFKNKK... | **1.98** | **1.55** | **1.88** | **1.80** | ⭐⭐⭐ Exceptional |
-| **AA1** | APEPKGSLGSLKKGAKVVGKGFKVISAVGTAHD... | 2.09 | 1.78 | 3.15 | 2.34 | ⭐⭐⭐ Excellent |
-| **AA5** | APGKIPVKAIQKAGKAIGKGLRAINIASTVHDI... | 2.11 | 1.69 | 2.80 | 2.20 | ⭐⭐⭐ Excellent |
-| AM3 | APGKIPVKAIQKAGKAIGKGLRAINVASTVHDI... | 2.23 | 1.76 | 2.87 | 2.29 | ⭐⭐ Very Good |
-| AA4 | APKGAGKIIRKGGKVIKHGLTAIGVIGTGHEVYR... | 3.38 | 1.88 | 2.34 | 2.53 | ⭐⭐ Very Good |
+| **Antimicrobial Peptide2** | APKGVGSAVKTGFRVISAAGTAHDVYHHFKNKK... | **1.98** | **1.55** | **1.88** | **1.80** | ⭐⭐⭐ Exceptional |
+| **Antimicrobial Peptide1** | APEPKGSLGSLKKGAKVVGKGFKVISAVGTAHD... | 2.09 | 1.78 | 3.15 | 2.34 | ⭐⭐⭐ Excellent |
+| **Antimicrobial Peptide5** | APGKIPVKAIQKAGKAIGKGLRAINIASTVHDI... | 2.11 | 1.69 | 2.80 | 2.20 | ⭐⭐⭐ Excellent |
+| Antimicrobial Peptide3 | APGKIPVKAIQKAGKAIGKGLRAINVASTVHDI... | 2.23 | 1.76 | 2.87 | 2.29 | ⭐⭐ Very Good |
+| Antimicrobial Peptide4 | APKGAGKIIRKGGKVIKHGLTAIGVIGTGHEVYR... | 3.38 | 1.88 | 2.34 | 2.53 | ⭐⭐ Very Good |
 
 **All MIC values in μg/mL**
 
 ### 🎯 Key Findings
 
-- ✅ **Exceptional Activity**: AM2 peptide shows 1.8 μg/mL average MIC (comparable to clinical antibiotics)
+- ✅ **Exceptional Activity**: Antimicrobial Peptide2 peptide shows 1.8 μg/mL average MIC (comparable to clinical antibiotics)
 - ✅ **Broad-Spectrum**: Effective against both Gram-positive and Gram-negative bacteria
 - ✅ **Gram-Negative Activity**: Unusually strong against *E. coli* and *P. aeruginosa*
 - ✅ **Aquaculture-Ready**: MIC range (1.8-6 μg/mL) ideal for fish disease treatment
 
 ### 📈 Comparison to Literature
 
-| Study | Moricin Source | MIC Range | This Study |
+| Study | Antimicrobial Peptide Source | MIC Range | This Study |
 |-------|---------------|-----------|------------|
 | Hemmi et al. 2002 | *Bombyx mori* | 5-20 μg/mL | **1.8-6 μg/mL** ✓ |
 | Dai et al. 2008 | *Samia cynthia* | 8-32 μg/mL | **Better** ✓ |
@@ -163,7 +163,7 @@ This repository provides a complete computational pipeline for predicting antimi
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/moricin-mic-prediction.git
+git clone https://github.com/swetha-pixel/moricin-mic-prediction.git
 cd moricin-mic-prediction
 ```
 
@@ -497,4 +497,5 @@ If you find this useful, please ⭐ star the repository!
 **Made with ❤️ for antimicrobial peptide research**
 
 *Last updated: December 2024*
+
 
