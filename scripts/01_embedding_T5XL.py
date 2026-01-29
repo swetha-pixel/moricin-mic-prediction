@@ -1,9 +1,5 @@
 """
 Generate T5XL Embeddings for Truncated Antimicrobial Peptide Sequences (40 AA)
-
-CORRECTED VERSION:
-- Input: FASTA file with 40 AA sequences
-- Output: (n_sequences, 40, 1024) numpy array
 """
 
 import torch
@@ -345,3 +341,4 @@ if __name__ == "__main__":
         print("      pip install transformers torch biopython")
         print("   3. Ensure you have enough disk space (~2GB for model)")
         print("   4. Check that sequences are valid amino acids")
+
